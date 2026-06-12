@@ -13,5 +13,12 @@
     "nuxt": "^3.10.0",
     "vue": "^3.4.20",
     "vue-router": "^4.3.0"
+  },
+  "engines": {
+    "node": ">=22.0.0",
+    "pnpm": ">=11.0.0"
+  },
+  "devEngines": {
+    "packageManager": { "name": "pnpm", "version": ">=11.0.0", "onFail": "download" }
   }
 }
